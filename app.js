@@ -5,7 +5,6 @@ const HapiSwagger = require('hapi-swagger');
 
 const userRouter = require('./routes/user');
 
-
 const init = async () => {
 
   const server = Hapi.server({
